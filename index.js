@@ -9,7 +9,7 @@ const s = require('http').Server((req, res) => {
     let header = req.headers["x-test"];
 
     let result = new Object();
-    result.message = 'bee_joo';
+    result.message = 'shumyakin_ilya';
     result["x-result"] = header;
     let body = "";
     
